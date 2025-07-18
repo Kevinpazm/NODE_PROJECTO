@@ -1,0 +1,55 @@
+[
+    {
+        "id": "bff0f31c60bed133",
+        "type": "mqtt in",
+        "z": "9583b8de.96bc48",
+        "name": "",
+        "topic": "practica",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "5096e889a2a6540c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 100,
+        "wires": [
+            [
+                "b8e389bd3085d13c",
+                "8fd7293123e170d3"
+            ]
+        ]
+    },
+    {
+        "id": "5096e889a2a6540c",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.100.63",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
